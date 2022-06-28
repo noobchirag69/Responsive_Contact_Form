@@ -17,12 +17,12 @@ body {
 }
 
 form {
-    width: 40%;
+    width: 30%;
     margin: 0 30px 0 30px;
     padding: 20px;
     background-color: bisque;
-    border-radius: 7px;
-    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    border-radius: 20px;
+    box-shadow: 0 3px 15px rgb(100, 100, 100);
 }
 
 form h1 {
@@ -42,12 +42,12 @@ form li {
 
 form input, form textarea {
     font-size: 14px;
-    width: 70%;
+    width: 80%;
     padding: 10px;
     margin: 10px 0 10px 0;
-    border-radius: 5px;
+    border-radius: 20px;
     border: none;
-    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.7);
     resize: none;
 }
 
@@ -57,21 +57,20 @@ form input:focus, form textarea:focus {
 }
 
 form button {
-    width: 35%;
-    padding: 15px;
+    padding: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
     background-color: crimson;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 50%;
     box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
     cursor: pointer;
     font-size: 16px;
 }
 
 form button:hover {
-    background: bisque;
+    background: rgb(255, 255, 174);
     border: 2px solid crimson;
     color: crimson;
     font-weight: bold;
@@ -81,6 +80,7 @@ form button:hover {
     display: flex;
     justify-content: center;
     list-style: none;
+    margin: 20px 0 10px 0;
 }
 
 .social a {
@@ -88,24 +88,24 @@ form button:hover {
     color: crimson;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
     form {
-        width: 70%;
+        width: 40%;
     }
     form input, form textarea {
-        width: 80%;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    form {
+        width: 60%;
     }
 }
 
 @media screen and (max-width: 600px) {
     form {
         width: 80%;
-    }
-    form input, form textarea {
-        width: 90%;
-    }
-    form button {
-        width: 50%;
     }
 }
 
@@ -117,8 +117,5 @@ form button:hover {
     }
     form input, form textarea {
         width: 100%;
-    }
-    form button {
-        width: 50%;
     }
 }
