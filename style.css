@@ -43,7 +43,7 @@ form li {
 form input, form textarea {
     font-size: 14px;
     width: 70%;
-    padding: 15px;
+    padding: 10px;
     margin: 10px 0 10px 0;
     border-radius: 5px;
     border: none;
@@ -86,10 +86,6 @@ form button:hover {
 .social a {
     text-decoration: none;
     color: crimson;
-}
-
-.social li {
-    padding: 20px;
 }
 
 @media screen and (max-width: 1000px) {
