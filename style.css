@@ -109,7 +109,7 @@ form button:hover {
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 350px) {
     form {
         background: none;
         box-shadow: none;
